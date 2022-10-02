@@ -1,0 +1,142 @@
+:root {
+  --bg-color: #e1e2e7c2;
+  --heading-color: #134845;
+  --text-color: #8dc8b7;
+  --link-color:#0c6f6a; 
+}
+
+body {
+  font-family: "Urbanist", sans-serif;
+  margin: 0px;
+  background-color: #e1eeea;
+}
+
+nav li {
+  font-size: 20px;
+  color: white;
+}
+
+
+h2 {
+  color: var(--heading-color);
+  text-align: left;
+  font-size: 40px;
+  font-weight: 300;
+  margin-top: 30px;
+}
+
+h5 {
+  font-weight: 300;
+}
+
+
+img {
+  border-radius: 4px;
+}
+
+hr {
+  background-color: #0c6f6a;
+  height: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--link-color);
+  transition: all 200ms ease-in-out;
+}
+
+a:hover {
+  opacity: 75%;
+  color: var(--link-color);
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  color: var(--heading-color);
+  opacity: 75%;
+}
+
+footer a {
+  color: var(--heading-color);
+}
+
+.container {
+  width: 100%;
+}
+
+.hero {
+  background-image: linear-gradient(#0e3d3bea, #0e3d3b93),url(/images/jesse-borovnica-VjMJmwZOs9M-unsplash.jpg);
+  background-position: center;
+  margin: 0;
+  color: white;
+  background-size: cover;
+}
+
+.hero h1 {
+  text-align: left;
+  font-weight: 300;
+  font-size:58px;
+}
+
+.hero img {
+  border-radius: 50%;
+  /* border: var(--text-color) 10px solid; */
+  margin: 0 auto;
+  display: block;
+}
+
+.hero hr {
+  background-color: white;
+}
+
+.links a {
+  color: white;
+  font-size: 32px;
+  margin-right: 10px;
+}
+
+.navbar-brand {
+  font-weight: 600;
+}
+
+.resume {
+  background-color: var(--text-color);
+  margin-top: 20px;
+  padding: 6px;
+  border-radius: 3px;
+  color: white;
+  font-size: 18px;
+}
+.contact h2, .contact p{
+  text-align: center;
+}
+
+.bottom-links {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 36px;
+}
+
+
+@media (max-width: 770px) {
+  h1 {
+    font-size: 36px;
+  }
+
+  h2 {
+    font-size: 36px;
+  }
+
+}
+
+@media (max-width: 992px) {
+  .hero img {
+    max-width: 200px;
+    margin-bottom: 30px;
+  }
+  .hero h1 {
+    font-size: 48px;
+  }
+}
