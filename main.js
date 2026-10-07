@@ -43,11 +43,11 @@ let projects = [
 projects.map(
   (proj) =>
     (projectCards.innerHTML += `<div class="col-md-4 col-sm-6">
-          <a href=${proj.link} target="_blank">
+          <a href="${proj.link}" target="_blank" rel="noopener">
             <img
               class="img-fluid shadow-sm"
               src="/images/${proj.img}"
-              alt=${proj.alt}
+              alt="${proj.alt}"
             />
             <h5 class="project-title mt-2 mb-5">${proj.name}</h5>
           </a>
