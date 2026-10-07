@@ -2,16 +2,16 @@ let projectCards = document.querySelector("#project-cards")
 
 let projects = [
   {
+    name: "BeFunky Pricing Page & Upgrade Modal",
+    link: "https://www.befunky.com/pricing/",
+    alt: "BeFunky upgrade modal comparing Plus and Pro plans",
+    img: "befunky-pricing.png",
+  },
+  {
     name: "Trip Planner App",
     link: "https://trip-up-cc461.web.app/",
     alt: "trip planner website",
     img: "tripapp.jpg",
-  },
-  {
-    name: "Dictionary",
-    link: "https://julia-dictionary-app.netlify.app/",
-    alt: "dictionary app",
-    img: "dictionary.png",
   },
   {
     name: "Mock Theater Website",
