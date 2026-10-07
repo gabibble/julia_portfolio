@@ -29,6 +29,39 @@ h5 {
   font-weight: 300;
 }
 
+.skills h3 {
+  color: var(--heading-color);
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+.skills h4 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 12px;
+}
+
+.skills h5 {
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.dates {
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+
+.links a:focus-visible {
+  outline: 3px solid white;
+  outline-offset: 2px;
+}
+
+.bottom-links a:focus-visible,
+.contact a:focus-visible {
+  outline: 3px solid var(--link-color);
+  outline-offset: 2px;
+}
+
 
 img {
   border-radius: 4px;
@@ -66,7 +99,7 @@ footer a {
 }
 
 .hero {
-  background-image: linear-gradient(#0d706b8d, #063a37e5),url(/images/jesse-borovnica-VjMJmwZOs9M-unsplash.jpg);
+  background-image: linear-gradient(#0a5753d9, #063a37f2),url(/images/jesse-borovnica-VjMJmwZOs9M-unsplash.jpg);
   background-position: center;
   margin: 0;
   color: white;
@@ -101,7 +134,8 @@ footer a {
 }
 
 .resume {
-  background-color: var(--text-color);
+  display: inline-block;
+  background-color: var(--link-color);
   margin-top: 20px;
   padding: 6px;
   border-radius: 3px;

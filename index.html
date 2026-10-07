@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Julia Giebultowicz is a full stack web developer with an eye for design and a passion for creating functional, accessible user experiences and efficient backend work flows."
+      content="Julia Giebultowicz is a frontend engineer in Portland, Oregon who builds responsive, accessible UI where design and code meet."
     />
     <!--bootstrap https://getbootstrap.com/docs/5.2/getting-started/introduction/-->
     <link
@@ -53,7 +53,7 @@
                 <a class="nav-link" href="index.html">Home</a>
               </li>
               <li class="nav-item me-3">
-                <a class="nav-link" href="/index.html#about">About</a>
+                <a class="nav-link" href="/index.html#experience">Experience</a>
               </li>
               <li class="nav-item me-3">
                 <a class="nav-link" href="/index.html#work">Projects</a>
@@ -69,7 +69,11 @@
         <div class="row">
           <div class="col-md-4">
             <div class="mx-3">
-              <img src="/images/juliabw.jpeg" class="img-fluid" alt="" />
+              <img
+                src="/images/juliabw.jpeg"
+                class="img-fluid"
+                alt="Portrait of Julia Giebultowicz"
+              />
             </div>
           </div>
           <div class="col-md-8">
@@ -79,23 +83,31 @@
                 Julia Giebultowicz
               </h1>
               <hr />
-              <h5 class="mb-3">Web developer based in Portland, Oregon</h5>
+              <h5 class="mb-3">Frontend engineer based in Portland, Oregon</h5>
               <p>
-                I’m a full stack web developer with an eye for design and a
-                passion for creating functional, accessible user experiences and
-                efficient backend work flows.
+                I’m a frontend engineer who loves the spot where design and code
+                meet. For almost four years I built features at BeFunky, a photo
+                editing and design app used by millions, turning Figma designs
+                into responsive, accessible UI. And I love a good puzzle,
+                especially a tricky cross-browser bug.
               </p>
               <div class="links">
-                <a href="mailto:juliagieb@gmail.com"
-                  ><i class="fa-solid fa-square-envelope"></i
+                <a href="mailto:juliagieb@gmail.com" aria-label="Email Julia"
+                  ><i class="fa-solid fa-square-envelope" aria-hidden="true"></i
                 ></a>
                 <a
                   href="https://www.linkedin.com/in/julia-giebultowicz/"
                   target="_blank"
-                  ><i class="fa-brands fa-linkedin"></i
+                  rel="noopener"
+                  aria-label="Julia on LinkedIn (opens in a new tab)"
+                  ><i class="fa-brands fa-linkedin" aria-hidden="true"></i
                 ></a>
-                <a href="https://github.com/gabibble" target="_blank"
-                  ><i class="fa-brands fa-square-github"></i
+                <a
+                  href="https://github.com/gabibble"
+                  target="_blank"
+                  rel="noopener"
+                  aria-label="Julia on GitHub (opens in a new tab)"
+                  ><i class="fa-brands fa-square-github" aria-hidden="true"></i
                 ></a>
               </div>
             </div>
@@ -105,49 +117,84 @@
     </div>
     <div class="container p-4">
       <div class="row skills">
-        <h2 id="about">Skills</h2>
+        <h2 id="experience">Experience</h2>
         <hr />
         <div class="col-lg-4 mb-3">
-          <h3>Languages/frameworks</h3>
-          <div class="row">
-            <div class="col-5">
-              <ul>
-                <li>Bootstrap</li>
-                <li>Flask</li>
-                <li>GitHub</li>
-                <li>HTML/CSS</li>
-                <li>JavaScript</li>
-              </ul>
-            </div>
-            <div class="col-7">
-              <ul>
-                <li>Python</li>
-                <li>React</li>
-                <li>Restful APIs</li>
-                <li>SQL/Postgresql</li>
-                <li>TypeScript</li>
-              </ul>
-            </div>
-          </div>
+          <h3>Skills</h3>
+          <h4>Languages</h4>
+          <ul>
+            <li>JavaScript (ES6+)</li>
+            <li>TypeScript</li>
+            <li>HTML</li>
+            <li>CSS/Sass</li>
+            <li>Python</li>
+          </ul>
+          <h4>Frontend</h4>
+          <ul>
+            <li>React</li>
+            <li>Lit / Web Components</li>
+            <li>Haunted (React-style hooks)</li>
+            <li>Accessibility (a11y)</li>
+            <li>Responsive design</li>
+          </ul>
+          <h4>Tools</h4>
+          <ul>
+            <li>Git and GitHub</li>
+            <li>Figma</li>
+            <li>Sentry</li>
+            <li>LambdaTest</li>
+            <li>Prismic CMS</li>
+          </ul>
         </div>
         <div class="col-lg-8">
-          <h3>Experience</h3>
-          <h5>Full Stack Web Developer &nbsp|&nbsp Coding Temple</h5>
-          <small>
-            Built and deployed full stack web applications using Python and
-            Flask to build the back-end and React and Typescript for the
-            front-end
-          </small>
-          <br />
-          <br />
-          <h5>Front-end Web Developer &nbsp|&nbsp SheCodes</h5>
-          <small>
-            Created Responsive, mobile friendly weather and dictionary
-            applications using Bootstrap, React and advanced CSS techniques such
-            as Flexbox
-          </small>
-          <br />
-          <br />
+          <h3>Work</h3>
+          <h5>Frontend Developer &nbsp;|&nbsp; BeFunky</h5>
+          <p class="dates">Nov 2022 to Sep 2026 &middot; Remote</p>
+          <ul class="small">
+            <li>
+              Built and maintained features across BeFunky’s photo editor,
+              graphic designer, collage maker, and marketing site, working
+              closely with designers.
+            </li>
+            <li>
+              Rebuilt the Pro/Plus pricing page and upgrade modal, including
+              the tablet layout I proposed.
+            </li>
+            <li>
+              Built Google Drive and Google Photos integrations for opening and
+              saving files.
+            </li>
+            <li>
+              Migrated 7+ legacy UI areas to Lit with React-style hooks, and
+              wrote the team’s migration guide.
+            </li>
+            <li>
+              Improved accessibility and translations across 12 languages.
+            </li>
+            <li>
+              Started and led an AI-assisted bug audit and Jira-to-GitHub
+              migration.
+            </li>
+          </ul>
+          <h5>
+            English Language Development Teacher &nbsp;|&nbsp; Reynolds High
+            School
+          </h5>
+          <p class="dates">2015 to 2022</p>
+          <ul class="small">
+            <li>
+              Taught multilingual students and trained colleagues on online
+              classroom design. Teaching made me a clear communicator and a big
+              fan of good documentation.
+            </li>
+          </ul>
+          <h3>Education</h3>
+          <ul class="small">
+            <li>Software Engineering Certificate, Coding Temple</li>
+            <li>Frontend Certificate, SheCodes</li>
+            <li>M.Ed., Portland State University</li>
+            <li>B.S. in Geography, University of Oregon</li>
+          </ul>
           <a class="resume" href="/images/resume.pdf">View Resume</a>
         </div>
       </div>
@@ -165,28 +212,42 @@
           <p>juliagieb@gmail.com</p>
         </a>
         <div class="bottom-links">
-          <a href="mailto:juliagieb@gmail.com"
-            ><i class="fa-solid fa-square-envelope"></i
+          <a href="mailto:juliagieb@gmail.com" aria-label="Email Julia"
+            ><i class="fa-solid fa-square-envelope" aria-hidden="true"></i
           ></a>
           <a
             href="https://www.linkedin.com/in/julia-giebultowicz/"
             target="_blank"
-            ><i class="fa-brands fa-linkedin"></i
+            rel="noopener"
+            aria-label="Julia on LinkedIn (opens in a new tab)"
+            ><i class="fa-brands fa-linkedin" aria-hidden="true"></i
           ></a>
-          <a href="https://github.com/gabibble" target="_blank"
-            ><i class="fa-brands fa-square-github"></i
+          <a
+            href="https://github.com/gabibble"
+            target="_blank"
+            rel="noopener"
+            aria-label="Julia on GitHub (opens in a new tab)"
+            ><i class="fa-brands fa-square-github" aria-hidden="true"></i
           ></a>
         </div>
       </div>
     </div>
 
     <footer class="mb-5">
-      <a href="https://github.com/gabibble/julia_portfolio" target="_blank"
-        >Open soure code by Julia Giebultowicz <br
-      /></a>
+      <a
+        href="https://github.com/gabibble/julia_portfolio"
+        target="_blank"
+        rel="noopener"
+        >Open source code by Julia Giebultowicz</a
+      >
+      <br />
 
       <br />
-      <a href="https://unsplash.com/photos/VjMJmwZOs9M" target="_blank"
+      <a
+        href="https://unsplash.com/photos/VjMJmwZOs9M"
+        target="_blank"
+        rel="noopener"
+        
         >Cover photo by Jesse Borovnica</a
       >
     </footer>
