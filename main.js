@@ -8,6 +8,24 @@ let projects = [
     img: "befunky-pricing.png",
   },
   {
+    name: "Steve Barry, Writer & Editor Portfolio",
+    link: "https://stevebarrywrites.com/",
+    alt: "Steve Barry writer and editor portfolio website",
+    img: "steve-barry.png",
+  },
+  {
+    name: "Artist Website",
+    link: "https://www.polkaprints.com/",
+    alt: "polka prints website",
+    img: "polka.png",
+  },
+  {
+    name: "Musician Website",
+    link: "https://esobee.netlify.app/",
+    alt: "esobee website",
+    img: "esobee.png",
+  },
+  {
     name: "Trip Planner App",
     link: "https://trip-up-cc461.web.app/",
     alt: "trip planner website",
@@ -18,24 +36,6 @@ let projects = [
     link: "https://francis-theater-mockup.netlify.app/",
     alt: "francis theater mock website",
     img: "francis.jpg",
-  },
-  {
-    name: "Weather App",
-    link: "https://juliaweatherapp.netlify.app/",
-    alt: "weather app",
-    img: "weather.png",
-  },
-  {
-    name: "Musician Website",
-    link: "https://www.esobeemusic.com/",
-    alt: "esobee website",
-    img: "esobee.png",
-  },
-  {
-    name: "Artist Website",
-    link: "https://www.polkaprints.com/",
-    alt: "polka prints website",
-    img: "polka.png",
   },
 ];
 
