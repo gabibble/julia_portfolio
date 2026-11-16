@@ -2,8 +2,20 @@ let projectCards = document.querySelector("#project-cards")
 
 let projects = [
   {
+    name: "GallerySnap: Artwork Photo Cropper",
+    link: "https://www.gallerysnap.app/",
+    alt: "GallerySnap app that crops and straightens photos of paintings",
+    img: "gallerysnap.webp",
+  },
+  {
+    name: "Gradient Generator",
+    link: "https://generate-gradient-app.vercel.app/",
+    alt: "Gradient generator with color stops, presets, and copy CSS",
+    img: "gradient.webp",
+  },
+  {
     name: "BeFunky Pricing Page & Upgrade Modal",
-    link: "https://www.befunky.com/pricing/",
+    link: "https://www.befunky.com/",
     alt: "BeFunky upgrade modal comparing Plus and Pro plans",
     img: "befunky-pricing.webp",
   },
@@ -36,6 +48,12 @@ let projects = [
     link: "https://francis-theater-mockup.netlify.app/",
     alt: "francis theater mock website",
     img: "francis.webp",
+  },
+  {
+    name: "Weather App",
+    link: "https://juliaweatherapp.netlify.app/",
+    alt: "Weather app showing current conditions and a 6-day forecast",
+    img: "weather.webp",
   },
 ];
 
